@@ -6,7 +6,7 @@ apply(plugin = "io.spring.dependency-management")
 
 
 
-group = "br.com"
+group = "br.com.gamerandonizator"
 version = "1.0-SNAPSHOT"
 
 repositories {

@@ -1,6 +1,6 @@
-package br.com.usecase;
+package br.com.gamerandonizator.usecase;
 
-import br.com.model.dto.Game;
+import br.com.gamerandonizator.model.dto.Game;
 
 import java.io.IOException;
 import java.net.URISyntaxException;

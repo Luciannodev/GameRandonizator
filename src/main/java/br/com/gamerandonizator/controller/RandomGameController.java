@@ -1,7 +1,7 @@
-package br.com.controller;
+package br.com.gamerandonizator.controller;
 
-import br.com.model.dto.Game;
-import br.com.usecase.GameUseCase;
+import br.com.gamerandonizator.usecase.GameUseCase;
+import br.com.gamerandonizator.model.dto.Game;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

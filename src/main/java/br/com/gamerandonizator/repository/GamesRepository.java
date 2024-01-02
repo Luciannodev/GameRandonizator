@@ -1,7 +1,7 @@
-package br.com.repository;
+package br.com.gamerandonizator.repository;
 
-import br.com.model.dto.Game;
-import br.com.model.dto.GameList;
+import br.com.gamerandonizator.model.dto.GameList;
+import br.com.gamerandonizator.model.dto.Game;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
@@ -12,7 +12,7 @@ import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.ArrayList;
 
-import static br.com.repository.Constante.URL_STEAM_GET_ALL;
+import static br.com.gamerandonizator.repository.Constante.URL_STEAM_GET_ALL;
 
 public class GamesRepository {
     public static ArrayList<Game> getAll() throws IOException, URISyntaxException {

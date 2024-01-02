@@ -1,7 +1,7 @@
-package br.com.usecase;
+package br.com.gamerandonizator.usecase;
 
-import br.com.model.dto.Game;
-import br.com.repository.GamesRepository;
+import br.com.gamerandonizator.model.dto.Game;
+import br.com.gamerandonizator.repository.GamesRepository;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
